@@ -1,0 +1,25 @@
+name,microchip no,sex,desexed,age(years),breed
+Frankie,647388745,female,yes,2,Dalmatian
+Goldo,634928675,male,yes,3,Labrador
+Roughie,344563396,male,yes,3,Jack Russell
+Chips,028566478,female,no,1,Bulldog
+Chocco,485738499,male,no,4,pit bull
+Milly,774657483,female,yes,6,rottweiler
+Flint,883747274,male,yes,1,maremma
+Rocket,382909983,male,yes,4,labrador
+Ripper,894475839,male,yes,3,jack russell
+Lucky,902238956,female,yes,5,whippet
+Zeus,787493833,male,no,8,Rottweiler
+Teddy,456389093,male,yes,3,Pit bull
+Bubbles,049584857,female,yes,4,German shepard
+Boomer,989343556,male,no,1,chihuahua
+Casper,778574657,male,yes,2,dalmatian
+Rebel,778475747,female,no,4,golden retriever
+Bandit,893458787,male,no,1,jack russell
+Evenball,908998763,male,yes,3,maremma
+Pixy,778435462,female,yes,2,chihuahua
+Banshee,334827309,female,yes,4,jack russell
+Stardust,193838293,female,yes,7,bulldog
+Bullet,897232846,male,no,10,labrador
+Chester,340984457,male,yes,2,rottweiler
+Hunter,784758394,male,yes,5,jack russell
