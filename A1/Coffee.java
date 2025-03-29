@@ -16,21 +16,21 @@ import java.util.*;
     private final String name;
     private final double price;
     private final int numberOfShots;
-    private final boolean sugar;
-    private final boolean iced;
+    private final String sugar;
+    private final String iced;
 
     // private final Milk milk;
     // private final Extra extra;
 
     private final List<Milk> milkTypes;
-    private final List<Extra> extras;
+    private final List<String> extras;
 
     private final String description;
 
     private double minPrice;
     private double maxPrice;
 
-    public Coffee(long id, String name, double price, int numberOfShots, boolean sugar, boolean iced, List<Milk> milkTypes, List<Extra> extras, String description, double minPrice, double maxPrice) {
+    public Coffee(long id, String name, double price, int numberOfShots, String sugar, String iced, List<Milk> milkTypes, List<String> extras, String description) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -42,8 +42,6 @@ import java.util.*;
         this.milkTypes = milkTypes;
         this.extras = extras;
         this.description = description;
-        this.minPrice = minPrice;
-        this.maxPrice = maxPrice;
     }
 
     //getter and setters methods for all
@@ -64,11 +62,11 @@ import java.util.*;
         return numberOfShots;
     }
 
-    public boolean getHasSuger() {
+    public String getHasSuger() {
         return sugar;
     }
 
-    public boolean getIsIced() {
+    public String getIsIced() {
         return iced;
     }
 
@@ -83,7 +81,7 @@ import java.util.*;
         return milkTypes;
     }
 
-    public List<Extra> getExtras() {
+    public List<String> getExtras() {
         return extras;
     }
 

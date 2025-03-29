@@ -7,7 +7,7 @@ package A1;
 
 //EDIT - PART 3.1:  in cases where you only want the user to select from a finite range of options, create an enum
 public enum Milk {
-    FULL_CREAM, SKIM, SOY, ALMOND, OAT, CASHEW, None; 
+    FULL_CREAM, SKIM, SOY, ALMOND, OAT, CASHEW, NONE; 
 
     /**
      * @return a prettified version of the relevant enum constant
@@ -20,7 +20,22 @@ public enum Milk {
             case ALMOND -> "Almond";
             case OAT -> "Oat";
             case CASHEW -> "Cashew";
-            case None -> "None";
+            case NONE -> "None";
+        };
+    }
+
+    public static Milk fromString(String value) {
+        if (value == null || value.isBlank()) {
+            return NONE;
+        }
+        return switch (value.trim().toLowerCase()) {
+            case "full-cream", "fullcream" -> FULL_CREAM;
+            case "skim" -> SKIM;
+            case "soy" -> SOY;
+            case "almond" -> ALMOND;
+            case "oat" -> OAT;
+            case "cashew" -> CASHEW;
+            default -> NONE;
         };
     }
 }

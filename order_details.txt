@@ -1,0 +1,25 @@
+Order details:
+       Name: Samir Nasri (0412121212)
+       Email: samirnasri@gmail.com
+       Item: Flat White Sucre (30223) - HOT
+       Milk: Soy
+       Extras: Caramel syrup
+
+
+******************************
+Order details:
+       Name: Anil Kakri (0451751473)
+       Email: narsids@sdfsdf.com
+       Item: Flat White Sucre (30223) - HOT
+       Milk: Soy
+       Extras: Caramel syrup, Chocolate powder
+******************************
+
+******************************
+Order details:
+       Name: Anil Kuarki (0498765432)
+       Email: testing@testing.com
+       Item: Espresso Double (30222) - ICED
+       Milk: Full-cream
+       Extras: Chocolate syrup
+******************************
